@@ -1,0 +1,72 @@
+.double{
+  width: 1540px;
+  margin: auto;
+  font-size: 12px;
+}
+.double table{
+  border-top: 1px solid #008080;
+  border-left: 1px solid #008080;
+}
+.double td{
+  padding: 1px;
+  border-right:1px solid #008080 ;
+  border-bottom: 1px solid #008080;
+  text-align: center;
+  font-size: 12px;
+}
+.ball{
+  width: 1000px;
+  margin: auto;
+  font-size: 12px;
+}
+.ball table{
+
+}
+.ball thead{
+  background: #008080;
+  color: #fff;
+}
+.ball td{
+  padding: 1px;
+  width: 20px;
+  text-align: center;
+  border-left:1px solid #fff;
+
+}
+.ball tbody td:nth-child(2) , .ball tfoot td:nth-child(2){
+  border-left: 1px #0a0c0d dashed;
+}
+.ball tbody td:nth-child(13) , .ball tfoot td:nth-child(13){
+  border-left: 1px #0a0c0d dashed;
+}
+.ball tbody td:nth-child(24) , .ball tfoot td:nth-child(24){
+  border-left: 1px #0a0c0d dashed;
+}
+.ball tbody td:nth-child(35) , .ball tfoot td:nth-child(35){
+  border-left: 1px #0a0c0d dashed;
+}
+.ball tbody td:nth-child(43) , .ball tfoot td:nth-child(43){
+  border-left: 1px #0a0c0d dashed;
+}
+.ball tbody tr:nth-child(even){
+  background: #eee;
+}
+.ball tbody td.number{
+  width: auto;
+}
+.ball  td.red , .double td.red{
+  background: #ff1403;
+  color: #fff;
+}
+.ball td.blue , .double td.blue{
+  background: #2c3eff;
+  color: #fff;
+}
+.ball tfoot td{
+  vertical-align: bottom;
+}
+.ball tfoot td img{
+  display: block;
+  margin: auto;
+  width: 6px;
+}

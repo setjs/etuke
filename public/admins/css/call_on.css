@@ -1,0 +1,225 @@
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+.manage-name-line{
+    width:600px;
+    margin:8px auto 20px auto;
+}
+.manage-name-line label{
+    padding-top:8px;
+    text-align:right;
+    padding-right:0;
+    vertical-align: top;
+}
+.group-list-box ul {
+    padding:12px 24px;margin:0;
+}
+
+
+.group-list-box ul li input{
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom:3px;
+    margin-right:2px;
+    margin-top:0;
+}
+.group-list-box .item{
+    float:left;
+    padding-right:24px;
+}
+.group-list-box fieldset{
+    border:1px solid #ccc;
+    margin-bottom:24px;
+    position: relative;
+    padding-top:24px;
+}
+.group-list-box legend{
+    border:none;
+    display:inline-block;
+    font-size:16px;
+    width:auto;
+    padding:4px 12px;
+    background:#d43f3a;
+    color:#fff;
+    position:absolute;
+    left:24px;
+    margin-bottom:0;
+    top:-12px;
+}
+.checkbox-box{
+    float:left;
+    margin-right:8px;
+}
+.normal-textarea{
+    width: 100%;
+    border:1px solid #c2cad8;
+}
+.col-sm-7.padding-left{
+    padding-top:8px;
+}
+.col-sm-2.control-label{
+    padding-right:0
+}
+.botton-form{
+    padding-left:16px;
+}
+.botton-form.botton-item{
+    padding-left:16.66667%;
+}
+.botton-form.botton-item a , .botton-form.botton-item button{
+    margin-left:8px;
+}
+.hasub .sub-title{
+    padding-left:18px;
+}
+.top-parent {
+    margin-right:12px;
+}
+
+#channel-allot{
+    overflow-y: auto;
+    max-height: 64px;
+}
+.date-block{
+    padding-right:12px;
+}
+.reach{
+    padding-top: 6px;
+}
+.col-sm-2.count-label{
+    width: 100px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 0;
+}
+.user-head img{
+    width: 100px;
+}
+.vip-detail-list .row{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0 2px 0 ;
+    margin-left: 0;
+    margin-right: 0;
+}
+.vip-detail-list .button{
+    padding: 4px;
+
+}
+.vip-detail-list .row .col-sm-4{
+    padding-right: 0;
+}
+.vip-detail-list .row .col-sm-8{
+    padding-left: 12px;
+}
+.committee{
+    width: 540px;
+    font-size: 14px;
+    position: relative;
+}
+.committee .desc{
+    width: 310px;
+    background-size: 410px 82px;
+    position: absolute;
+    top:245px;
+    left: 286px;
+    text-align: center;
+}
+.committee .desc div{
+    width: 120px;
+    height: 120px;
+    margin: -10px auto auto auto;
+}
+.committee .desc img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:16px;
+}
+.committee .desc svg{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.committee .left{
+    float: left;
+    padding-top: 264px;
+    margin-left: 30px;
+}
+.committee .right{
+    float: right;
+    padding-top: 16px;
+}
+.committee ul li{
+    padding: 5px 0 14px 0;
+}
+.committee ul.look-user li{
+    padding: 2px 0 ;
+}
+.verify-text ul li{
+    padding: 6px 0;
+    background: rgba(0 , 0 , 0 , 0.1);
+    margin-bottom: 1px;
+}
+
+.verify-text  li select{
+    min-width: 160px;
+    height: 26px;
+    border: 1px solid #009BFF;
+}
+.set-class{
+    display: block;
+}
+.set-class-name{
+    color: #0a3df8;
+}
+.work-block{
+    padding: 20px 0;
+}
+.work-block h2{
+    font-size: 16px;
+    position: relative;
+}
+.work-block h2 .close{
+    width: 16px;
+    height: 16px;
+    background: url("../images/icons/close.png") no-repeat;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.form-text {
+    padding: 20px ;
+}
+.form-text .class-title{
+    width: 66px;
+    line-height: 30px;
+    float: left;
+}
+.form-text .class-text{
+    width: 260px;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.select-class-mode {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.select-class-mode select{
+    height: 30px;
+    min-width: 60%;
+}
+.select-remark {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.select-remark input{
+    height: 30px;
+    padding-left: 8px;
+    width: 60%;
+}

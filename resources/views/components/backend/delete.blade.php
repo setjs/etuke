@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" class="btn btn-danger btn-sm  delete {{$class ?? ''}}" onclick="APP.delete($(this) , '{{$url}}' , '{{csrf_token()}}', '{{$title}}' )" data-id="{{$id}}">删除</a>

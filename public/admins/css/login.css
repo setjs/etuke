@@ -1,0 +1,185 @@
+.login .logo {
+  margin: 60px auto 0 auto;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+}
+
+.login .content {
+  background: #fff;
+  border-radius: 7px;
+  width: 400px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.login .row{
+  padding: 40px 20px 0 20px;
+}
+
+.login .content h4 {
+  color: #555;
+}
+
+.login .content .hint {
+  color: #999;
+  padding: 0;
+  margin: 15px 0 7px 0;
+}
+
+.login .content .login-form, .login .content .forget-form {
+  padding: 0px;
+  margin: 0px;
+}
+
+.login .content .form-control {
+  height: 43px;
+}
+.login .content .form-control:focus, .login .content .form-control:active {
+    border: 1px solid #c3ccda;
+}
+.login .content .form-control::-moz-placeholder {
+    color: #8290a3;
+    opacity: 1;
+}
+.login .content .form-control:-ms-input-placeholder {
+    color: #8290a3;
+}
+.login .content .form-control::-webkit-input-placeholder {
+    color: #8290a3;
+}
+
+.login .content select.form-control {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+
+.login .content .form-actions {
+  clear: both;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  padding: 0 30px 20px 30px;
+  text-align:center;
+  word-spacing: 16px;
+}
+
+.login .content .form-actions .btn {
+  padding: 8px 24px !important;
+  margin-right: 0;
+}
+
+.login .content .form-actions .btn-default {
+  font-weight: 600;
+  padding: 10px 25px !important;
+  color: #6c7a8d;
+  background-color: #ffffff;
+  border: none;
+}
+
+.login .content .form-actions .btn-default:hover {
+  background-color: #fafaff;
+  color: #45b6af;
+}
+
+.login .content .check {
+  color: #8290a3;
+}
+
+
+.login .content .create-account {
+ 
+  padding: 15px 0 17px 0;
+  text-align: center;
+  font-size: 16px;
+  background: #417fd4;
+  color:#fff;
+}
+
+.form-group.captcha{
+  position: relative;
+}
+.form-group.captcha img{
+  position: absolute;
+  top:0;
+  right:0;
+  height:43px;
+}
+
+.btn.green-meadow:not(.btn-outline) {
+  color: #FFF;
+  background-color: #1BBC9B;
+  border-color: #1BBC9B;
+}
+.btn.green-meadow:not(.btn-outline).focus,.btn.green-meadow:not(.btn-outline):focus {
+  color: #FFF;
+  background-color: #158f76;
+  border-color: #0b4d3f
+}
+
+.btn.green-meadow:not(.btn-outline).active,.btn.green-meadow:not(.btn-outline):active,.btn.green-meadow:not(.btn-outline):hover {
+  color: #FFF;
+  background-color: #158f76;
+  border-color: #13866f
+}
+.alert-danger .error{
+  display: block;
+  padding: 6px 0 6px 12px;
+  margin-bottom: 0;
+}
+#error-tips{
+  padding-left: 0;
+}
+
+
+.btn.blue:not(.btn-outline) {
+  color: #FFF;
+  background-color: #3598dc;
+  border-color: #3598dc
+}
+
+.btn.blue:not(.btn-outline).focus,.btn.blue:not(.btn-outline):focus {
+  color: #FFF;
+  background-color: #217ebd;
+  border-color: #15527c
+}
+
+.btn.blue:not(.btn-outline).active,.btn.blue:not(.btn-outline):active,.btn.blue:not(.btn-outline):hover,.open>.btn.blue:not(.btn-outline).dropdown-toggle {
+  color: #FFF;
+  background-color: #217ebd;
+  border-color: #1f78b5
+}
+
+.btn.blue:not(.btn-outline).active.focus,.btn.blue:not(.btn-outline).active:focus,.btn.blue:not(.btn-outline).active:hover,.btn.blue:not(.btn-outline):active.focus,.btn.blue:not(.btn-outline):active:focus,.btn.blue:not(.btn-outline):active:hover,.open>.btn.blue:not(.btn-outline).dropdown-toggle.focus,.open>.btn.blue:not(.btn-outline).dropdown-toggle:focus,.open>.btn.blue:not(.btn-outline).dropdown-toggle:hover {
+  color: #FFF;
+  background-color: #1c699f;
+  border-color: #15527c
+}
+
+.btn.blue:not(.btn-outline).active,.btn.blue:not(.btn-outline):active,.open>.btn.blue:not(.btn-outline).dropdown-toggle {
+  background-image: none
+}
+
+.btn.blue:not(.btn-outline).disabled.focus,.btn.blue:not(.btn-outline).disabled:focus,.btn.blue:not(.btn-outline).disabled:hover,.btn.blue:not(.btn-outline)[disabled].focus,.btn.blue:not(.btn-outline)[disabled]:focus,.btn.blue:not(.btn-outline)[disabled]:hover,fieldset[disabled] .btn.blue:not(.btn-outline).focus,fieldset[disabled] .btn.blue:not(.btn-outline):focus,fieldset[disabled] .btn.blue:not(.btn-outline):hover {
+  background-color: #3598dc;
+  border-color: #3598dc
+}
+
+.btn.blue:not(.btn-outline) .badge {
+  color: #3598dc;
+  background-color: #FFF
+}
+
+.btn.btn-outline.blue {
+  border-color: #3598dc;
+  color: #3598dc;
+  background: 0 0
+}
+.content .create-account.user-enter{
+  text-align: right;
+  padding-right: 20px;
+}
+.content .create-account.user-enter a{
+  color: #fff;
+}

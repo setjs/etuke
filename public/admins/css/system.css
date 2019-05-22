@@ -1,0 +1,84 @@
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+.manage-name-line{
+    width:600px;
+    margin:8px auto 20px auto;
+}
+.manage-name-line label{
+    padding-top:8px;
+    text-align:right;
+    padding-right:0;
+    vertical-align: top;
+}
+.group-list-box ul {
+    padding:12px 24px;margin:0;
+}
+
+
+.group-list-box ul li input{
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom:3px;
+    margin-right:2px;
+    margin-top:0;
+}
+.group-list-box .item{
+    float:left;
+    width: 130px;
+}
+.group-list-box fieldset{
+    border:1px solid #ccc;
+    margin-bottom:24px;
+    position: relative;
+    padding-top:24px;
+}
+.group-list-box legend{
+    border:none;
+    display:inline-block;
+    font-size:16px;
+    width:auto;
+    padding:4px 12px;
+    background:#d43f3a;
+    color:#fff;
+    position:absolute;
+    left:24px;
+    margin-bottom:0;
+    top:-12px;
+}
+.checkbox-box{
+    float:left;
+    margin-right:8px;
+}
+.normal-textarea{
+    width: 100%;
+    border:1px solid #c2cad8;
+}
+.col-sm-7.padding-left{
+    padding-top:8px;
+}
+.col-sm-2.control-label{
+    padding-right:0
+}
+.botton-form{
+    padding-left:16px;
+}
+.botton-form.botton-item{
+    padding-left:16.66667%;
+}
+.botton-form.botton-item a , .botton-form.botton-item button{
+    margin-left:8px;
+}
+.hasub .sub-title{
+    padding-left:18px;
+}
+.top-parent {
+    margin-right:12px;
+}
+
+#channel-allot{
+    overflow-y: auto;
+    max-height: 64px;
+}
